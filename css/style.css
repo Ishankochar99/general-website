@@ -1,0 +1,317 @@
+/* resetting browser stuff */
+*     {
+  box-sizing: border-box;
+}
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling our header */
+header   {
+  background: #222;
+  color: #FFF;
+  padding: 20px 30px;
+}
+
+/* logo */
+#logo         {
+  display: inline;
+  color: #FFF;
+  text-decoration: none;
+  width: 49%;
+}
+#logo img    {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+#logo span   {
+  display: inline-block;
+}
+
+/* main navigation */
+nav     {
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+/* styling our main content */
+.hero           {
+  min-height: 800px;
+  text-align: center;
+  background-image: url('../img/yes.jpg');
+  background-size: cover;
+}
+.hero-content   {
+  color: rgb(237, 234, 243);
+  padding-top: 130px;
+}
+.hero-content h1   {
+  font-size: 50px;
+  margin: 0%;
+}
+.hero-content p    {
+  font-size: 25px;
+  width: 40%;
+  margin: 0%;
+}
+.hero-title{
+    width: 40%;
+}
+.hero-content a    {
+  display: inline-block;
+  color: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  padding: 15px 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+/* basic site sections */
+.site-section   {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.site-section-secondary   {
+  background: #EFEFEF;
+}
+.site-section-inside   {
+  
+  max-width: 1200px;
+  margin:  auto;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h2  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+}
+.section-header h3  {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #777;
+    text-align: center;
+margin-left: 350px;
+margin-right: 350px;
+  }
+/* feature boxes */
+.feature-box   {
+  display: inline-block;
+  width: 24%;
+  padding: 20px 30px 20px 10px;
+}
+
+.feature-box h5   {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+/* testi*/
+.testi   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.testi-content   {
+  background: rgb(188, 233, 233);
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.testi-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testi-author h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:15px;
+}
+.testi-author span {
+  font-size: 14px;
+}
+#contact {
+    background-color: #0c0f0f;
+    background-image: linear-gradient(to right, rgb(10, 10, 12),rgb(6, 12, 12));
+   color: white;
+    padding-bottom: 40px;
+   }
+   #contact h1,
+   #contact h1 span {
+        color: lightgrey;
+   }
+   
+   #contact-form {
+        margin-left: 20%;
+   }
+   #contact-container {
+        display: flex;
+   }
+   #my-details-container {
+        width: 35%;
+        margin-left: 6%;
+   }
+   #my-details-container h3 {
+        color: white;
+        font-weight: 550;
+        font-size: 1.2rem;
+   }
+   
+   
+   #contact-form-container {
+        width: 50%;
+   }  
+   .my-details-info-container {
+        margin-bottom: 20px;
+         color: #d9dcdd;
+         font-size: 1rem;
+   }
+   .my-details-info-container span {
+        margin-left: 0.4rem;
+   }
+   .my-details-info-container i {
+       color: white;
+   }
+   
+   #contact-form input,
+   textarea {
+   
+        max-width: 90%; 
+        margin: 15px;
+        padding: 4px 10px;
+        border: 0px solid transparent;
+        border: 2px solid lightgrey;
+        color: #d9dcdd;
+        background: transparent;
+        width: 90%; 
+        line-height: 1.6;
+        font-size: 1.05rem;
+   }
+   
+   
+   #contact-form button[type="submit"] {
+        background: transparent;
+        font-size: 0.95rem;
+        border: 2px solid white;
+        margin-top: 5%;
+        margin-left: 35%;
+        border-radius: 2px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.046875em;
+        line-height: 1
+        padding: 0.8em 0.8em 0.78em;
+        text-transform: uppercase;
+   }
+#contact-form button:hover {
+   background: lightgrey;
+   color: #13386fe0;
+   }
+   .horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+	font-weight: 100;
+	font-size: 1.4rem;
+
+}
+
+
+.horizontal-list li a {
+	color: white;
+	text-decoration: none;
+}
+.social-icons li a i {
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 20%;
+}
+
+
+.social-icons li a i:hover {
+	box-shadow: 0px 0px 16px 14px rgba(230, 196, 196, 0.3);
+}
+.text-center {
+	text-align: center;
+}
+@media screen and (max-width: 800px) {
+  nav     {
+    display: inline-block;
+    text-align: right;
+    float: right;
+  }
+  nav ul   {
+    list-style: none;
+    margin: 0;
+    background-color: #222;
+  }
+  nav ul li {
+    display: inline;
+    background-color: #222;
+    background-position: 0%;
+  }
+  nav ul li a    {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+  }
+  nav ul li a:hover   {
+    background: #444;
+  }
+      }
